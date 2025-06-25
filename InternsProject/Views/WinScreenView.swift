@@ -44,11 +44,11 @@ struct WinScreenView: View {
                 }
                 .padding(.bottom, 10)
                 
-                Text("Du hast gewonnen!")
+                Text("You have won!")
                     .foregroundColor(.green)
                     .font(.system(size: 30,weight: .bold))
                     .padding(.bottom, 15)
-                Text("Möchtest du noch Mal spielen?")
+                Text("Do you wan't to play again?")
                     .font(.system(size: 20))
                     .padding(.bottom, 15)
                 Button(action: {

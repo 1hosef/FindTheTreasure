@@ -12,16 +12,16 @@ struct LoseScreenView: View {
     var body: some View {
         if(isLoseScreenShown == true){
             VStack{
-                Text("Leider hast du verloren!")
+                Text("Sadly you have lost!")
                     .foregroundColor(.red)
                     .font(.system(size: 30,weight: .bold))
                     .padding(.bottom, 15)
-                Text("Möchtest du noch Mal spielen?")
+                Text("Do you wan't to retry?")
                     .font(.system(size: 20))
                     .padding(.bottom, 15)
                 Button(action: {
                     isLoseScreenShown = false
-                }) { Text("Wiederhollen")
+                }) { Text("Retry")
                         .padding()
                         .background(Color.green)
                         .foregroundColor(.white)

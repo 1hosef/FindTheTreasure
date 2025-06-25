@@ -139,7 +139,7 @@ struct ThirdMapView: View {
                         Image(systemName: "xmark")
                             .foregroundColor(.red)
                             .font(.system(size: 40,weight: .bold))
-                            .position(x: 295, y: 550)
+                            .position(x: 180, y: 500)
                             .zIndex(1)
                             .onTapGesture() {
                                 isWinCondition(imgIndex:6)
@@ -150,7 +150,7 @@ struct ThirdMapView: View {
                         Image(systemName: "xmark")
                             .foregroundColor(.red)
                             .font(.system(size: 40,weight: .bold))
-                            .position(x: 300, y: 550)
+                            .position(x: 250, y: 600)
                             .zIndex(1)
                             .onTapGesture() {
                                 isWinCondition(imgIndex:7)
