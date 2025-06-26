@@ -26,8 +26,5 @@ Find the Treasure is an engaging game where players unlock multiple levels by su
 
 Alternatively, you can install the program directly to your iPhone using Xcode.
 
-## Dependencies
-	•	SwiftUI
-
 ## Author
 	•	Hosef
